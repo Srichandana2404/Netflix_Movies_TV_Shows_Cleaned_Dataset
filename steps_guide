@@ -1,0 +1,38 @@
+1. Checking and Removing Duplicates
+- Command:
+Data → Remove Duplicates
+- Steps:
+- Select all rows
+- Go to the Data tab
+- Click Remove Duplicates
+- Choose relevant columns (e.g., title, release_year)
+- Click OK
+- Result: No duplicates found
+
+2. Handling Missing Values
+- Method: Replace blanks with "UNKNOWN/NOT MENTIONED"
+- Command:
+  Ctrl + H → Find: (leave as blank) → Replace with: UNKNOWN/NOT MENTIONED → Replace All
+- Alternative: Use filters to isolate blanks and fill manually
+
+3. Standardizing Country Names
+- Command:
+  Ctrl + H → Find: united states → Replace with: USA
+- Formula (optional):
+=IF(A2="united states","USA",A2)
+
+4. Converting Date Formats
+- Formula:
+=DATEVALUE("22 September 2025")
+- Steps:
+- Apply formula in a new column
+- Copy and paste as values
+- Format column as Short Date if needed
+
+5. Verifying and Correcting Data Types
+For release_year and date_added:
+- Formula:
+=ISNUMBER(A2)
+- Steps:
+- Apply formula in adjacent column
+- Check for TRUE (valid number/date) or FALSE (text or error)
