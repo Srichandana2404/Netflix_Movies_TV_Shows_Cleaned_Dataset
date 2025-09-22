@@ -16,4 +16,4 @@ Clean and preprocess the Netflix Movies & TV Shows dataset using Excel.
 
 ## Files Included
 - `cleaned_netflix_titles.xlsx`: Final cleaned dataset
-- `excel_guide.md`: Step-by-step Excel commands and formulas
+- `steps_guide.md`: Step-by-step Excel commands and formulas
