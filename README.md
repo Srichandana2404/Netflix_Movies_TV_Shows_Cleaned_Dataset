@@ -5,7 +5,7 @@ Clean and preprocess the Netflix Movies & TV Shows dataset using Excel.
 
 ## Tasks Performed
 - Removed duplicates and found there are no duplicates.
-- Filled missing values with "Unknown/NOT MENTIONED"
+- Filled missing values with "UNKNOWN/NOT MENTIONED"
 - Standardized country Names (united states to USA)
 - Converted date formats to dd-mm-yyyy using formula
 - Verified and corrected data types using "ISNUMBER()" formula for dates and release_year.
